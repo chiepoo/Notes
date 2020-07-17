@@ -66,3 +66,9 @@ pull image from registry or download image from registry to local machine
 $ docker pull nginx
 ```
 
+### Docker System Information
+```shell
+$ sudo docker info
+$ sudo docker --version
+$ sudo docker version
+```
