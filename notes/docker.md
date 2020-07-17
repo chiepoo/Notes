@@ -51,3 +51,18 @@ configure docker to start on boot
 ```shell
 $ sudo systemctl enable docker
 ```
+
+### Container Registry
+
+Registry is a place or application that hosted docker images in the internet or cloud. Docker Hub is one example of container registry.
+
+- Docker Docs : <https://docs.docker.com>
+- Docker Hub  : <https://hub.docker.com>
+- Google Container Registry       : <https://cloud.google.com/container-registry>
+- AWS Elastic Container Registry  : <https://aws.amazon.com/id/ecr>
+
+pull image from registry or download image from registry to local machine
+```shell
+$ docker pull nginx
+```
+
