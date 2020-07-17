@@ -61,11 +61,6 @@ Registry is a place or application that hosted docker images in the internet or 
 - Google Container Registry       : <https://cloud.google.com/container-registry>
 - AWS Elastic Container Registry  : <https://aws.amazon.com/id/ecr>
 
-pull image from registry or download image from registry to local machine
-```shell
-$ docker pull nginx
-```
-
 ### Docker System Information
 ```shell
 $ sudo docker info
@@ -74,3 +69,30 @@ $ sudo docker version
 $ docker version
 $ docker --version
 ```
+
+### Docker Images
+
+get list of docker images
+```shell
+$ sudo docker images
+$ docker images
+```
+
+pull image from registry or download image from registry to local machine
+```shell
+$ docker pull nginx
+$ sudo docker pull mongo:4.1
+$ sudo docker pull mongo:4.2
+```
+
+delete docker images by ID
+```shell
+$ docker rmi cb81b8241902
+```
+delete docker images by name
+```shell
+$ docker rmi ubuntu
+$ docker rmi nginx:alpine
+```
+
+
