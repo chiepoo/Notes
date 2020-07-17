@@ -130,3 +130,17 @@ $ sudo docker container start mongoserver2
 
 $ docker container start nginx-server
 ```
+
+stop docker container
+```shell
+$ sudo docker container stop mongoserver1
+$ sudo docker container stop mongoserver1
+$ docker container stop nginx-server
+
+# stop all containers
+$ sudo docker container stop mongoserver1 mongoserver2
+```
+stop docker container by ID
+```shell
+$ sudo docker container stop 69c996783ad4
+```
