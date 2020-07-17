@@ -95,4 +95,21 @@ $ docker rmi ubuntu
 $ docker rmi nginx:alpine
 ```
 
+### Docker Container
 
+Check All container
+```shell
+$ docker ps -a
+$ docker ps --all
+
+$ docker container ls -all
+$ docker container ls --all
+$ docker container ls -a
+```
+
+Check running container
+```shell
+$ docker ps
+
+$ docker container ls
+```
