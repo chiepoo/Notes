@@ -71,4 +71,6 @@ $ docker pull nginx
 $ sudo docker info
 $ sudo docker --version
 $ sudo docker version
+$ docker version
+$ docker --version
 ```
