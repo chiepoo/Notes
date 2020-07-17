@@ -144,3 +144,15 @@ stop docker container by ID
 ```shell
 $ sudo docker container stop 69c996783ad4
 ```
+
+delete docker container
+```shell
+$ docker container rm nginx-server
+
+# delete container by ID
+$ docker container rm e080880236a2
+$ sudo docker container rm 69c996783ad4
+
+# delete more than one container
+$ sudo docker container rm mongoserver1 mongoserver2
+```
