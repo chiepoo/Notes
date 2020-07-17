@@ -122,3 +122,11 @@ $ sudo docker container create --name mongoserver2 mongo:4.1
 $ docker container create --name nginx-server nginx:latest
 $ docker container create --name nginx-server -p 8080:80 nginx:latest
 ```
+
+start or run docker container
+```shell
+$ sudo docker container start mongoserver1
+$ sudo docker container start mongoserver2
+
+$ docker container start nginx-server
+```
