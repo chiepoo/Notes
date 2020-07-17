@@ -45,3 +45,9 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 $ sudo docker run hello-world
 ```
 
+### Docker Post Installation
+
+configure docker to start on boot
+```shell
+$ sudo systemctl enable docker
+```
